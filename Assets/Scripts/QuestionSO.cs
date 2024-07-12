@@ -7,7 +7,7 @@ using UnityEngine;
 public class QuestionSO : ScriptableObject
 {
     [TextArea(2, 6)]
-    [SerializeField] string question = "Enter new question text here";
+    [SerializeField] string question = "Enter new Question text here";
     [SerializeField] string[] answers = new string[4];
     [SerializeField] int correctIndex;
 
